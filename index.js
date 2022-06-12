@@ -88,3 +88,5 @@ exports.main_handler = async (event, context, callback) => {
   console.log(text)
   return text
 }
+
+exports.main_handler(); //调用并运行自动填报函数
