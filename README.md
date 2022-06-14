@@ -18,6 +18,8 @@
 ### 运行Run.bat文件
 将index.js与Run.bat放在同一文件夹下，运行Run.bat文件即可。
 ### 添加Windows计划任务
+win+R,输入`taskschd.msc`运行计划任务;
+[img]https://s1.328888.xyz/2022/06/14/pldeq.gif[/img]
 
 
 ### 数据配置
