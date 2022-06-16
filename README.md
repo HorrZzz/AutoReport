@@ -11,21 +11,19 @@
 
 ---
 ## 操作步骤
-### Windows下配置Nodejs环境
+### ①Windows下配置Nodejs环境
 [下载Nodejs12.16.0安装包并安装](https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi) 
 
 [下载仓库源码并解压](https://github.com/HorrZzz/UPC_ncov_AutoReport/archive/refs/heads/HorrZzz-windows_Nodejs.zip)
 
 打开解压的文件夹,在在文件夹空白处按住Shift+鼠标右键,`在此处打开Powershell窗口`输入`npm install`,安装所需依赖.
-### 代码文件准备
+### ②代码文件准备
 修改`Index.js`中的代码，使用上述准备的内容替换对应内容即可，修改完后打包即可。
-### 运行Run.bat文件
+### ③运行Run.bat文件
 将index.js与Run.bat放在同一文件夹下，运行Run.bat文件即可。
-### 添加Windows计划任务
+### ④添加Windows计划任务
 win+R,输入`taskschd.msc`运行计划任务;
 按照下面的动图进行操作;
 PS:启动程序-起始于一定要填脚本文件所在的文件夹绝对路径.
 ![pldeq.gif](https://s1.328888.xyz/2022/06/14/pldeq.gif)
-### 数据配置
-如果需要修改表单数据，在自动提交之前手动通过提交一次数据即可，第二天将会自动修正数据。
 	
