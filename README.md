@@ -12,9 +12,10 @@
 ---
 ## 操作步骤
 ### Windows下配置Nodejs环境
-[下载Nodejs12.16.0安装包](https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi) 
+[下载Nodejs12.16.0安装包并安装](https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi) 
 
 [下载仓库源码并解压](https://github.com/HorrZzz/UPC_ncov_AutoReport/archive/refs/heads/HorrZzz-windows_Nodejs.zip)
+
 打开解压的文件夹,在在文件夹空白处按住Shift+鼠标右键,`在此处打开Powershell窗口`输入`npm install`,安装所需依赖.
 ### 代码文件准备
 修改`Index.js`中的代码，使用上述准备的内容替换对应内容即可，修改完后打包即可。
