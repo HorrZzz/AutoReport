@@ -11,10 +11,12 @@
 
 ---
 ## 操作步骤
-### 获取Server酱的API Key实现微信推送
-打开[Server酱主页](http://sc.ftqq.com/3.version)，按照页面指示获取Key并绑定微信，复制Key备用。
+### Windows下配置Nodejs环境
+[下载Nodejs12.16.0安装包](https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi)
+[下载仓库源码并解压](https://github.com/HorrZzz/UPC_ncov_AutoReport/archive/refs/heads/HorrZzz-windows_Nodejs.zip)
+打开解压的文件夹,在在文件夹空白处按住Shift+鼠标右键,`在此处打开Powershell窗口`输入`npm install`,安装所需依赖.
 ### 代码文件准备
-下载本仓库的代码，修改`Index.js`中的代码，使用上述准备的内容替换对应内容即可，修改完后打包即可。
+修改`Index.js`中的代码，使用上述准备的内容替换对应内容即可，修改完后打包即可。
 ### 运行Run.bat文件
 将index.js与Run.bat放在同一文件夹下，运行Run.bat文件即可。
 ### 添加Windows计划任务
