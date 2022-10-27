@@ -89,4 +89,27 @@ exports.main_handler = async (event, context, callback) => {
   return text
 }
 
+/生成从minNum到maxNum的随机数
+function randomNum(minNum,maxNum){ 
+    switch(arguments.length){ 
+        case 1: 
+            return parseInt(Math.random()*minNum+1,10); 
+        break; 
+        case 2: 
+            return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+        break; 
+            default: 
+                return 0; 
+            break; 
+    } 
+} 
+
+var sleep = function(time) {
+    var timeOut = new Date().getTime() + parseInt(time, 10);
+    while(new Date().getTime() <= timeOut) {}
+};
+
+sleep(randomNum(1,30)*60*1000);
+
+
 exports.main_handler(); //调用并运行自动填报函数
